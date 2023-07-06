@@ -2,13 +2,12 @@ package boardgame;
 
 public class Position {
 	
+	//Atributos
 	private Integer row;
 	private Integer column;
 	
-	//Construtores: 
-	public Position() {
-	}
-
+	//Construtor: 
+	
 	public Position(Integer row, Integer column) {
 		this.row = row;
 		this.column = column;
@@ -39,7 +38,5 @@ public class Position {
 	
 	
 	//Métodos: 
-	public void setValue(int row, int column) {
-		
-	}
+	
 }
