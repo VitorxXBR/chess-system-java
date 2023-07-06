@@ -10,6 +10,7 @@ public class Piece {
 	//Construtor
 	public Piece(Board board) {
 		this.board = board;
+		position = null;
 		//position = null;(posição da peça inicialmente é nula)
 	}
 
